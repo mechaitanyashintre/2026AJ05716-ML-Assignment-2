@@ -1,0 +1,51 @@
+{
+  "dataset_name": "UCI Phishing Websites (ID 327)",
+  "dataset_url": "https://archive.ics.uci.edu/dataset/327/phishing",
+  "feature_names": [
+    "having_ip_address",
+    "url_length",
+    "shortining_service",
+    "having_at_symbol",
+    "double_slash_redirecting",
+    "prefix_suffix",
+    "having_sub_domain",
+    "sslfinal_state",
+    "domain_registration_length",
+    "favicon",
+    "port",
+    "https_token",
+    "request_url",
+    "url_of_anchor",
+    "links_in_tags",
+    "sfh",
+    "submitting_to_email",
+    "abnormal_url",
+    "redirect",
+    "on_mouseover",
+    "rightclick",
+    "popupwindow",
+    "iframe",
+    "age_of_domain",
+    "dnsrecord",
+    "web_traffic",
+    "page_rank",
+    "google_index",
+    "links_pointing_to_page",
+    "statistical_report"
+  ],
+  "target_column": "target",
+  "class_names": {
+    "0": "Legitimate",
+    "1": "Phishing"
+  },
+  "training_rows": 8844,
+  "test_rows": 2211,
+  "random_state": 565,
+  "model_files": {
+    "Logistic Regression": "logistic_regression.joblib",
+    "Decision Tree": "decision_tree.joblib",
+    "KNN": "knn.joblib",
+    "Naive Bayes": "naive_bayes.joblib",
+    "Support Vector Machine": "svm.joblib"
+  }
+}
