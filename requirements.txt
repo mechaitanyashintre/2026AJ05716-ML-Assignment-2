@@ -1,0 +1,10 @@
+# requirements.txt - dependencies required for model training and the Streamlit app.
+streamlit==1.66.1
+scikit-learn==1.8.0
+pandas==2.3.3
+numpy==2.3.5
+scipy==1.17.0
+joblib==1.5.3
+ucimlrepo==0.0.7
+pyarrow==23.0.1
+altair==6.3.0
