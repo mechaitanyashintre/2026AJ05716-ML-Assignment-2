@@ -1,0 +1,11 @@
+Alternative: Manual Dataset Setup (If Required)
+
+If the automatic dataset download fails due to network restrictions, the dataset can be loaded manually:
+
+1. Open https://archive.ics.uci.edu/dataset/327/phishing
+2. Download the official Phishing Websites archive.
+3. Extract 'Training Dataset.arff' (not '.old.arff').
+4. Place 'Training Dataset.arff' inside the data/ folder.
+5. Run: python download_dataset.py
+
+The script will generate dataset.csv in the project root if it is not already present.
